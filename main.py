@@ -8,7 +8,7 @@ app = FastAPI(title="简单API服务", version="1.0.0")
 # 根路径
 @app.get("/")
 async def root():
-    return {"message": "欢迎使用 FastAPI 服务！"}
+    return {"message": "欢迎使用 FastAPI 服务！很高兴告诉你，你使用jenkins流水线布置成功了"}
 
 if __name__ == "__main__":
     import uvicorn
